@@ -1,5 +1,12 @@
 # Building and Testing cAdvisor
 
+$GOPATH is a required environment variable. Set it in ~/.bashrc with the following
+
+```
+mkdir /usr/local/src/gocode
+export /usr/local/src/gocode
+```
+
 **Note**: cAdvisor only builds on Linux since it uses Linux-only APIs.
 
 You should be able to `go get` cAdvisor as expected (we use `-d` to only download):
